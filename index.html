@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Djigui Kouyaté</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Ton CSS perso -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">DK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Mon approche</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Bannière d'accueil compacte -->
+<header id="home" class="hero-section">
+    <div class="container">
+        <div class="hero-content text-center text-md-start">
+            <h1 class="hero-title">Djigui Kouyaté</h1>
+            <p class="hero-subtitle">Étudiant en Génie Informatique | Passionné par le design matériel et logiciel</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary btn-lg px-4 me-3 mb-3">
+                    <i class="fas fa-eye me-2"></i>Voir mes projets
+                </a>
+                <a href="#about" class="btn btn-outline-light btn-lg px-4">
+                    <i class="fas fa-user me-2"></i>En savoir plus
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+    </div>
+</header>
+
+    <!-- Section À propos -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="image/profil.png" alt="Photo de profil" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="fw-bold mb-4">À propos de moi</h2>
+                    <p class="lead mb-4">Je suis un étudiant en dernière année de Génie Informatique avec une passion pour la conception matérielle et le design logiciel.</p>
+                    <p>Mon parcours académique a été marqué par une approche pratique de l'apprentissage, alimentée par la curiosité et la volonté de résoudre des problèmes du monde réel grâce à la technologie. Je me spécialise actuellement dans les interfaces utilisateur intuitives et les systèmes embarqués.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <h5 class="fw-bold"><i class="fas fa-graduation-cap me-2"></i>Formation</h5>
+                            <p>Baccalauréat en Génie Informatique<br>Université d'Ottawa</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="fw-bold"><i class="fas fa-tools me-2"></i>Compétences</h5>
+                            <p>UI/UX Design · HTML/CSS · JavaScript · Python · Arduino</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Mon approche -->
+    <section id="work" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="fw-bold mb-5">Mon approche de travail</h2>
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="approach-card p-4 h-100">
+                                <i class="fas fa-lightbulb fa-3x mb-4 text-primary"></i>
+                                <h4>Conception centrée utilisateur</h4>
+                                <p>Je place les besoins de l'utilisateur final au cœur de chaque décision de design.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="approach-card p-4 h-100">
+                                <i class="fas fa-code fa-3x mb-4 text-primary"></i>
+                                <h4>Prototypage rapide</h4>
+                                <p>J'itère rapidement pour valider les concepts avant le développement final.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="approach-card p-4 h-100">
+                                <i class="fas fa-chart-line fa-3x mb-4 text-primary"></i>
+                                <h4>Optimisation continue</h4>
+                                <p>J'analyse les données d'utilisation pour améliorer constamment les produits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="fw-bold mb-5 text-center">Mes projets</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card project-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top project-img" style="background-image: url('image/projet1.png');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Site de services</h5>
+                            <p class="card-text">Conception d'une plateforme pour professionnels (dentistes, réparateurs...)</p>
+                            <span class="badge bg-secondary">À venir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card project-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top project-img" style="background-image: url('image/projet2.png');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Jeu éducatif</h5>
+                            <p class="card-text">Développement d'un jeu interactif pour l'apprentissage des enfants</p>
+                            <span class="badge bg-secondary">À venir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card project-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top project-img" style="background-image: url('image/projet3.png');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Boutique en ligne</h5>
+                            <p class="card-text">E-commerce spécialisé dans les produits technologiques</p>
+                            <span class="badge bg-secondary">À venir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card project-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top project-img" style="background-image: url('image/projet4.png');"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dashboard analytique</h5>
+                            <p class="card-text">Visualisation de données pour le suivi des performances sportives</p>
+                            <span class="badge bg-secondary">À venir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Djigui Kouyaté</h5>
+                    <p>Portfolio étudiant - Conception UI/UX et développement</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="#" class="text-white"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center small">
+                <p>© 2023 Tous droits réservés. Inspiré par les meilleures pratiques de NN/g.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Ton JS -->
+    <script src="script.js"></script>
+</body>
+</html>
